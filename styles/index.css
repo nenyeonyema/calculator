@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: rgb(135, 178, 189);
+}
+.myName {
+    font-size: 18px;
+    font-family: Sofia;
+    text-align: right;
+}
+
+
+.container {
+    background-color: black;
+    min-height: 500px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 15px;
+}
+.general {
+    width: 60px;
+    border: none;
+    height: 60px;
+    border-radius: 100%;
+    margin: auto;
+    margin: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: width height 0.15s;
+}
+.general:hover {
+    width: 63px;
+    height: 63px;
+}
+.item1 {
+    width: 100%;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+}
+#calculate {
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.055);
+    width: 98%;
+    overflow: hidden;
+}
+p#calculate {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    overflow: hidden;
+    text-align: right;
+}
+.numbers {
+    background-color: rgb(114, 113, 113);
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+.key-calc, .equalsign {
+    background-color: rgba(228, 194, 0, 0.897);
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+.key-del, #key-per {
+    background-color: rgba(240, 248, 255, 0.63);
+    color: black;
+}
+.zero {
+    width: 140px;
+    height: 60px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.zero:hover {
+    width: 142px;
+    height: 63px;
+}
